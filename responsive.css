@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    .main-banner {
+        display: flex;
+     flex-direction: column;
+    }
+    nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.banner-img{
+    width: 100%;
+}
+.nav-title{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 16px;
+    display: flex;
+}
+.promary-btn{
+   background-color: chocolate;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 10px 15px;
+   font-weight: 600;
+   font-size: 15px;
+  
+}
+/*  about */
+
+.about-items{
+    display: flex;
+flex-direction: column;
+ 
+
+}.about-container{
+  padding: 20px;
+    margin-top: 20px;
+    
+}
+.banner-content h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.sikills-container{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+ padding: 20px;
+}
+}
