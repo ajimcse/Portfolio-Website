@@ -1,70 +1,100 @@
 @media only screen and (max-width: 772px) {
+
+    .header {
+        background-image: none;
+    }
+
     .main-banner {
         display: flex;
-     flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 20px;
     }
-    nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
-.banner-img{
-    width: 100%;
-}
-.nav-title{
-    font-size: 30px;
-}
-.nav-link{
-    font-size: 16px;
-    display: flex;
-}
-.promary-btn{
-   background-color: chocolate;
-   border: none;
-   border-radius: 10px;
-   color: white;
-   padding: 10px 15px;
-   font-weight: 600;
-   font-size: 15px;
-  
-}
-/*  about */
 
-.about-items{
-    display: flex;
-flex-direction: column;
- 
+    nav,
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 10px;
 
-}.about-container{
-  padding: 20px;
-    margin-top: 20px;
-    
-}
-.banner-content h1{
-    font-size: 30px;
-    font-weight: 800;
-}
-.sikills-container{
-    display: flex;
-    flex-direction: column;
-text-align: center;
- padding: 20px;
-}
-.resume-container{
-    display: flex;
-  flex-direction: column;
-    margin: 20px;
-     text-align: center;
-}
-.resume-title{
-    text-align: center;
-    padding: 25px;
-    font-size: 25px;
-}
-.footer-contaoner{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
+    }
+
+    .nav-link {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 10px;
+
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .nav-title {
+        font-size: 30px;
+        font-size: 45px;
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        display: flex;
+    }
+
+    .promary-btn {
+        background-color: chocolate;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 10px 15px;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+
+    /*  about */
+
+    .about-items {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .about-container {
+        padding: 20px;
+        margin-top: 20px;
+
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .sikills-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .resume-container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .resume-title {
+        text-align: center;
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    .footer-contaoner {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
 }
